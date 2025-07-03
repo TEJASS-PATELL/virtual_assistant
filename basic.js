@@ -117,10 +117,9 @@ function speakThis(message) {
 
 var typed = new Typed(".auto-input", {
     strings: ["I'm your virtual assistance <span>I N E R T I A</span> how can I help you....."],
-    typeSpeed: 50,     // Typing speed
-    backSpeed: 50,     // Deleting speed (slower = smoother)
-    backDelay: 1000,   // Delay before deleting
-    loop: true,
+    typeSpeed: 100,      
+    backDelay: 1000,  
+    loop: false,
     html: true,
     showCursor: false 
 });
